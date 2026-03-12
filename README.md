@@ -22,8 +22,11 @@
 ### 方式一：开发模式安装（推荐）
 
 ```bash
-uv pip install -e .
+cd agentbox
+uv tool install .
 ```
+> 或者直接在线安装 uv tool install  git+https://github.com/wxhzhwxhzh/agentbox
+
 
 安装后即可使用全局命令：
 
