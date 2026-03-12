@@ -26,7 +26,7 @@ def build_parser():
     # doctor
     doctor_parser = subparsers.add_parser(
         "doctor",
-        help="检测系统环境（git/npm）"
+        help="检测系统环境（git/node）"
     )
     doctor_parser.set_defaults(func=doctor.run)
 

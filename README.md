@@ -73,7 +73,7 @@ agentbox 0.1.0
 
 ### 环境检测
 
-检测系统是否安装 `git` 和 `npm`：
+检测系统是否安装 `git` 和 `node`：
 
 ```bash
 agentbox doctor
@@ -87,7 +87,7 @@ agentbox doctor
 ✔ git 已安装
   版本: git version 2.44.0
 
-✔ npm 已安装
+✔ node 已安装
   版本: 10.8.2
 ```
 

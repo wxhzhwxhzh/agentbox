@@ -29,7 +29,7 @@ def run(args):
 
     tools = {
         "git": ["git", "--version"],
-        "npm": ["npm", "--version"],
+        "node": ["node", "--version"],
     }
 
     for tool, cmd in tools.items():
