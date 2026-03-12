@@ -1,0 +1,17 @@
+[project]
+name = "agentbox"
+version = "0.1.0"
+description = "AgentBox CLI 工具"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "rich>=14.3.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
+
+[project.scripts]
+agentbox = "agentbox.cli:main"
